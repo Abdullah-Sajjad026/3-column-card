@@ -47,14 +47,14 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1140px;
-    border-radius: 2rem;
+    border-radius: 1rem;
     overflow: hidden;
 }
 
 .card {
     max-width: 308px;
     width: 100%;
-    padding: 15%;
+    padding: 18%;
 
 
     &>* {
@@ -82,7 +82,7 @@ body {
     .btn {
         text-decoration: none;
         font-size: 1.5rem;
-        padding: 1.3rem 3.3rem;
+        padding: 1.2rem 3.2rem;
         display: inline-block;
         margin-top: auto;
         background-color: white;
@@ -136,20 +136,22 @@ body {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 54.2%;
+    }
+
     .content-box {
         grid-template-columns: 1fr;
     }
 }
 
-@media screen and (max-width: 950px) {}
+// @media screen and (max-width: 500px) {
 
-@media screen and (max-width: 950px) {}
+// }
 
-@media screen and (max-width: 950px) {}
-
-@media screen and (max-width: 950px) {}
-
-@media screen and (max-width: 950px) {}
-
-@media screen and (max-width: 950px) {}
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 50%;
+    }
+}
